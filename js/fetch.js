@@ -4,7 +4,6 @@ import { urlAPI } from "./config/url.js";
 import { addInner } from "https://bukulapak.github.io/element/process.js";
 import { getRandomColor, getRandomColorName } from "https://bukulapak.github.io/image/process.js";
 import { isiTabel } from "./temp/table.js";
-let urlAPI = "https://agita.herokuapp.com/presensi";
 get(urlAPI, isiTablePresensi);
 function isiTablePresensi(results) {
     results.forEach(isiRow);
