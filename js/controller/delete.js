@@ -1,5 +1,5 @@
-function deleteData() {
-    var presensiId = document.querySelector('a[data-presensi-id]').getAttribute('data-presensi-id');
+function deleteData(IDHAPUS) {
+    var presensiId = IDHAPUS;
     var target_url = "https://agita.herokuapp.com/delete/" + presensiId;
 
     var requestOptions = {
