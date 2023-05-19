@@ -1,7 +1,7 @@
 const urlParams = new URLSearchParams(window.location.search);
 const presensiID = urlParams.get('presensiId');
 
-export let urlfetch = 'https://agita.herokuapp.com/upd/' + presensiId;
+export let urlPUT = 'https://agita.herokuapp.com/upd/' + presensiId;
 
 export function AmbilResponse(result) {
     console.log(result); //menampilkan response API pada console
