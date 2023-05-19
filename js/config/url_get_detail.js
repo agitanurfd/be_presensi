@@ -1,4 +1,4 @@
 const urlParams = new URLSearchParams(window.location.search);
-const presensiID = urlParams.get('presensiId');
+const presensiId = urlParams.get('presensiId');
 
-export let urlfetch = 'https://agita.herokuapp.com/presensi/' + presensiId;
+export let urlFetch = 'https://agita.herokuapp.com/presensi/' + presensiId;
