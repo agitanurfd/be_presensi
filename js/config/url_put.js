@@ -1,10 +1,10 @@
 const urlParams = new URLSearchParams(window.location.search);
-const presensiID = urlParams.get('presensiId');
+const presensiId = urlParams.get("presensiId");
 
-export let urlPUT = 'https://agita.herokuapp.com/upd/' + presensiId;
+export let urlPUT = "https://agita.herokuapp.com/upd/" + presensiId;
 
 export function AmbilResponse(result) {
-    console.log(result); //menampilkan response API pada console
-    alert(result.message); //menampilkan response API pada alert
-    window.location.href = "index.html"; //reload halaman setelah klik ok pada alert
+  console.log(result); //menampilkan respond API pada console
+  alert(result); //menampilkan respond API pada alert
+  window.location.href = "index.html"; //reload halaman setelah klik ok pada alert
 }
